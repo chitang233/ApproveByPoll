@@ -16,5 +16,5 @@ TOKEN=<YOUR_BOT_TOKEN_HERE> python3 main.py
 Or use Docker instead:
 
 ```shell
-docker run -d --name approvebypoll -e TOKEN=<YOUR_BOT_TOKEN_HERE> chitang233/approvebypoll
+docker run -d --name approvebypoll -e TOKEN=<YOUR_BOT_TOKEN_HERE> ghcr.io/chitang233/approvebypoll:latest
 ```
